@@ -1,0 +1,32 @@
+---
+- summary: |
+    Смена языка на сайте
+  status: pass
+
+- summary: |
+    Поиск товара через сортировку по цене
+  status: pass
+
+- summary: |
+    Поиск товара через фильтры по производителю
+  status: pass
+
+- summary: |
+    Поиск товара через строку поиска
+  status: pass
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Оформление заказа
+  status: pass
+
+- summary: |
+    Удаление одного товара из корзины
+  status: pass
+
+- summary: |
+    Очистить корзину
+  status: pass
