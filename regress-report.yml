@@ -1,0 +1,59 @@
+---
+test-cases:
+  - summary: |
+      Смена языка на сайте
+    status: fail
+
+  - summary: |
+      Поиск товара через сортировку по цене
+    status: pass
+
+  - summary: |
+      Поиск товара через фильтры по производителю
+    status: pass
+
+  - summary: |
+      Поиск товара через строку поиска
+    status: pass
+
+  - summary: |
+      Добавление товара в корзину
+    status: pass
+
+  - summary: |
+      Оформление заказа
+    status: pass
+
+  - summary: |
+      Удаление одного товара из корзины
+    status: pass
+
+  - summary: |
+      Очистить корзину
+    status: pass
+
+bugreports:
+  - summary: |
+      Пропали флаги при выборе языка
+    environment: |
+      Opera One(версия: 112.0.5197.39) (Официальная сборка) (64 бит)
+    ОС Windows 10 64-bit
+    steps-to-reproduce: |
+      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      2. Нажать на кнопку "Language"
+    expected-result: |
+      Отображались флаги Рус, Англ
+    actual-result: |
+      Обоих флагов больше нет
+
+  - summary: |
+      Появилась форма авторизации которая открывается в отдельной вкладке
+    environment: |
+      Opera One(версия: 112.0.5197.39) (Официальная сборка) (64 бит)
+    ОС Windows 10 64-bit
+    steps-to-reproduce: |
+      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+    expected-result: |
+      По логике должно открываться окно авторизации регистрации
+    actual-result: |
+      Открывается в отдельной вкладке
