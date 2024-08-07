@@ -34,19 +34,6 @@ test-cases:
 
 bugreports:
   - summary: |
-      Пропали флаги при выборе языка
-    environment: |
-      Opera One(версия: 112.0.5197.39) (Официальная сборка) (64 бит)
-    ОС Windows 10 64-bit
-    steps-to-reproduce: |
-      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-      2. Нажать на кнопку "Language"
-    expected-result: |
-      Отображались флаги Рус, Англ
-    actual-result: |
-      Обоих флагов больше нет
-
-  - summary: |
       Появилась форма авторизации которая открывается в отдельной вкладке
     environment: |
       Opera One(версия: 112.0.5197.39) (Официальная сборка) (64 бит)
