@@ -32,15 +32,4 @@ test-cases:
       Очистить корзину
     status: pass
 
-bugreports:
-  - summary: |
-      Появилась форма авторизации которая открывается в отдельной вкладке
-    environment: |
-      Opera One(версия: 112.0.5197.39) (Официальная сборка) (64 бит)
-    ОС Windows 10 64-bit
-    steps-to-reproduce: |
-      1. Зайти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app
-    expected-result: |
-      По логике должно открываться окно авторизации регистрации
-    actual-result: |
-      Открывается в отдельной вкладке
+  bugreports: []
