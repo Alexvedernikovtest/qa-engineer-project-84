@@ -1,7 +1,7 @@
 ---
 - summary: |
     Смена языка на сайте на Русский язык
-  status: fall
+  status: fail
   
 - summary: |
     Смена языка на сайте на Английский язык
@@ -9,7 +9,7 @@
 
 - summary: |
     Фильтрация товара по цене
-  status: fall
+  status: fail
 
 - summary: |
     Поиск товара через фильтры по производителю
@@ -41,11 +41,11 @@
 
 - summary: |
     Проверка перехода из карточки товара по хэштегу
-  status: fall
+  status: fail
 
 - summary: |
     Проверка фильтра по наличию
-  status: fall
+  status: fail
 
 - summary: |
     Поиск несуществующего товара
