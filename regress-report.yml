@@ -28,9 +28,10 @@ test-cases:
       Удаление одного товара из корзины
     status: pass
 
-  - summary: |
+  - summary: | 
       Очистить корзину
     status: pass
+    
   - summary: |
     Просмотр информации о товаре
   status: pass
