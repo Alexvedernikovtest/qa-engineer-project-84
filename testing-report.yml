@@ -1,11 +1,11 @@
 ---
 - summary: |
     Смена языка на сайте
-  status: pass
+  status: fall
 
 - summary: |
     Поиск товара через сортировку по цене
-  status: pass
+  status: fall
 
 - summary: |
     Поиск товара через фильтры по производителю
