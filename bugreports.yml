@@ -71,7 +71,7 @@
     Все содержимое сайта отображается корректно, видно товары, ничего не вылазит за размеры дисплея, верстка не "поплыла"
   actual-result: |
     На большинстве устройств неккоректное отображение сайта, где то отсутствуют товары, где то отсутствуют фильтры
-    .github/workflows/crhbbbbb.jpg
+    https://github.com/Alexvedernikovtest/qa-engineer-project-84/blob/e08df57472d76881c72a555f48d63dd5069e8505/.github/workflows/crhbbbbb.jpg
 
 - summary: |
     При оформлении заказа сервер выдает ошибку
