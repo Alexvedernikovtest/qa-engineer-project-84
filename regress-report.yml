@@ -6,7 +6,7 @@ test-cases:
 
   - summary: |
       Фильтрация товара по цене
-    status: pass
+    status: fail
 
   - summary: |
       Поиск товара через фильтры по производителю
@@ -31,5 +31,20 @@ test-cases:
   - summary: |
       Очистить корзину
     status: pass
+- summary: |
+    Просмотр информации о товаре
+  status: pass
+
+- summary: |
+    Проверка перехода из карточки товара по хэштегу
+  status: fail
+
+- summary: |
+    Проверка фильтра по наличию
+  status: fail
+
+- summary: |
+    Поиск несуществующего товара
+  status: pass
 
 bugreports: []
