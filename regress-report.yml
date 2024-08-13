@@ -31,19 +31,19 @@ test-cases:
   - summary: |
       Очистить корзину
     status: pass
-- summary: |
+  - summary: |
     Просмотр информации о товаре
   status: pass
 
-- summary: |
+  - summary: |
     Проверка перехода из карточки товара по хэштегу
   status: fail
 
-- summary: |
+  - summary: |
     Проверка фильтра по наличию
   status: fail
 
-- summary: |
+  - summary: |
     Поиск несуществующего товара
   status: pass
 
