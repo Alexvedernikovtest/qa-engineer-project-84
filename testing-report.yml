@@ -34,3 +34,19 @@
 - summary: |
     Очистить корзину
   status: pass
+
+- summary: |
+    Просмотр информации о товаре
+  status: pass
+
+- summary: |
+    Проверка перехода из карточки товара по хэштегу
+  status: fall
+
+- summary: |
+    Проверка фильтра по наличию
+  status: fall
+
+- summary: |
+    Поиск несуществующего товара
+  status: pass
