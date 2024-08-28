@@ -239,13 +239,14 @@
 
 - summary: |
     Переход между страницами каталога
-  environment: |
-    Opera One(версия: 112.0.5197.39) (Официальная сборка) (64 бит)
-    ОС Windows 10 64-bit
-  steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app
-    2. Вверху католога навигация по страницам каталога, нажать "Следующая"
+  requirement: |
+    должен быть постраничный вывод каталога
+  prerequisites: |
+    Открыт сайт https://hexlet-products-store.vercel.app
+  test-data: |
+    empty
+  steps:
+    - Зайти на страницу https://hexlet-products-store.vercel.app
+    - Вверху католога навигация по страницам каталога, нажать "Следующая"
   expected-result: |
     Переход на новую страницу каталога
-  actual-result: |
-    Страницы переключатся
